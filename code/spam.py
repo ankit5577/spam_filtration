@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import string
 
-messages = pd.read_csv('smsspamcollection/SMSSpamCollection', sep='\t',
+messages = pd.read_csv('SMSSpamCollection', sep='\t',
                            names=["label", "message"])
 
 from nltk.corpus import stopwords
